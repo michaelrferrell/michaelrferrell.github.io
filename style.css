@@ -17,13 +17,14 @@
     justify-content: center;
 }
 
-.navbar-container {
-    position: fixed; /* Fixed positioning ensures it stays in place while scrolling */
-    top: 0; /* Position at the top of the viewport */
-    float: right;
-    padding: 10px; /* Add padding for better visibility */
-    z-index: 1000; /* Set z-index to ensure it appears above other elements */
-  }
+.navbar {
+    width:85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .navbar ul li {
     list-style: none;
