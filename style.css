@@ -10,4 +10,5 @@
     background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url('media\home_background.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
