@@ -17,16 +17,17 @@
     justify-content: center;
 }
 
-.navbar {
-    width:85%;
-    margin: auto;
-    right: 0;
-    top: 0;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+.navbar-container {
+    position: fixed; /* Fixed positioning ensures it stays in place while scrolling */
+    top: 0; /* Position at the top of the viewport */
+    right: 0; /* Position at the right of the viewport */
+    background-color: #333; /* Set background color */
+    padding: 10px; /* Add padding for better visibility */
+    z-index: 1000; /* Set z-index to ensure it appears above other elements */
+    /* Add any other styles you need */
+  }
+
+
 
 .navbar ul li {
     list-style: none;
