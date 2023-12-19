@@ -8,7 +8,7 @@
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     height: 100vh; /* Set the body height to 100% of the viewport height */
-    background-image: url('media/home_background.jpg'); /* Replace 'path/to/your/banner-image.jpg' with the actual path to your image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('media/home_background.jpg'); /* Replace 'path/to/your/banner-image.jpg' with the actual path to your image */
     background-size: cover; /* This ensures that the image covers the entire body */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
