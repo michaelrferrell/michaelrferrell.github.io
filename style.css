@@ -66,12 +66,12 @@
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
-    display: flex;
     color: #fff;
 }
 
 .about-col-1 {
     flex-basis: 35%;
+    display: flex;
     width: 25%
 }
 .about-col-1 img{
@@ -80,5 +80,6 @@
 }
 .about-col-2{
     flex-basis: 60%;
+    display: flex;
     width: 65%;
 }
