@@ -26,7 +26,11 @@
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p> In the tranquil embrace of the forest, where sunlight weaves its way through the emerald canopy, a symphony of rustling leaves and twittering birds unfolds. Each tree stands as a silent witness to the passage of time, their bark etched with the stories of seasons gone by. Shafts of golden light dance upon the moss-covered ground, casting a gentle glow on hidden secrets of the woodland floor.
+                        <p> In the tranquil embrace of the forest, where sunlight weaves its way through the emerald
+                            canopy, a symphony of rustling leaves and twittering birds unfolds. Each tree stands as a
+                            silent witness to the passage of time, their bark etched with the stories of seasons gone
+                            by. Shafts of golden light dance upon the moss-covered ground, casting a gentle glow on
+                            hidden secrets of the woodland floor.
                         </p>
 
                         <div class="tab-titles">
@@ -36,22 +40,27 @@
                         </div>
                         <div class="tab-contents active-tab" id="skills">
                             <ul>
-                                <li><span>AutoCAD Eagle / Fusion 360</span><br>Designing electrical schematics and PCBs</li>
+                                <li><span>AutoCAD Eagle / Fusion 360</span><br>Designing electrical schematics and PCBs
+                                </li>
                                 <li><span>SolidWorks</span><br>Designing parts for 3D printing</li>
-                                <li><span>C++</span><br>Designing and implementing efficient algorithms for management of data structures</li>
+                                <li><span>C++</span><br>Designing and implementing efficient algorithms for management
+                                    of data structures</li>
                             </ul>
                         </div>
 
                         <div class="tab-contents" id="experience">
                             <ul>
-                                <li><span>Avionics Engineer</span><br>Rocket Project at UCLA's Hybrid Team<br>December 2022 - June 2023</li>
-                                <li><span>Ground Systems Lead Engineer</span><br>Rocket Project at UCLA's Liquid Team<br>July 2023 - Current</li>
+                                <li><span>Avionics Engineer</span><br>Rocket Project at UCLA's Hybrid Team<br>December
+                                    2022 - June 2023</li>
+                                <li><span>Ground Systems Lead Engineer</span><br>Rocket Project at UCLA's Liquid
+                                    Team<br>July 2023 - Current</li>
                             </ul>
                         </div>
 
                         <div class="tab-contents" id="education">
                             <ul>
-                                <li><span>University of California Los Angeles</span><br>Aerospace Engineering<br>Expected Graduation: June 2026</li>
+                                <li><span>University of California Los Angeles</span><br>Aerospace
+                                    Engineering<br>Expected Graduation: June 2026</li>
                             </ul>
                         </div>
 
@@ -65,10 +74,10 @@
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
         function opentab(tabname) {
-            for(tablink of tablinks) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents) {
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
