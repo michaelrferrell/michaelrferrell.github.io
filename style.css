@@ -194,11 +194,17 @@
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
+.project-container {
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto; /* Center the container on the page */
+  }
 .project-row {
     width: 80%;
     display: grid;
     grid-template-columns: 35% 65%;
     grid-gap: 50px;
+    margin-top: 50px;
 }
 
 .project-row .left {
