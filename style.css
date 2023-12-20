@@ -171,7 +171,7 @@
     color: #fff;
 }
 
-.description::after{
+.description h3::after{
     content: '';
     height: 3px;
     width: 0%;
@@ -182,6 +182,6 @@
     transition: 0.5s;
 }
 
-.description:hover::after{
+.description h3:hover::after{
     width: 100%;
 }
