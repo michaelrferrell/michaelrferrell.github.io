@@ -195,12 +195,11 @@
 }
 
 .project-row {
-    justify-content: space-between;
-    flex-wrap: wrap;
     width: 80%;
     max-width: 1170px;
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-gap: 50px;
 }
 
 .project-row .left {
