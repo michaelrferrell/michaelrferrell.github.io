@@ -178,3 +178,7 @@
 .project-links.active-link::after {
     width: 50%;
 }
+
+.project-slide {
+    color: #fff;
+}
