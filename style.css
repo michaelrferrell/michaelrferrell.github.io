@@ -197,7 +197,7 @@
 .project-row {
     width: 80%;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 70%;
     grid-gap: 50px;
 }
 
