@@ -198,3 +198,16 @@
 .slide img {
     width: 350px;
 }
+
+.img-col-1 {
+    flex-basis: 27%;
+    margin-left: 20px;
+}
+.img-col-1 img{
+    width:100%;
+    border-radius: 15px;
+}
+.word-col-1{
+    flex-basis: 60%;
+    margin-right: 20px;
+}
