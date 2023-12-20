@@ -195,19 +195,18 @@
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
-.img-col-1 {
-    flex-basis: 20%;
-    margin-left: 20px;
-}
-.img-col-1 img{
-    width:100%;
-    border-radius: 15px;
-}
-.word-col-1{
-    flex-basis: 80%;
-    margin-right: 20px;
-}
-.word-col-1 p{
-    color: #fff;
-    font-size: 20px;
-}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .grid-item p {
+    margin: 0;
+  }
