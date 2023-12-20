@@ -146,7 +146,7 @@
 .project {
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .project img {
     width: 100%;
@@ -170,7 +170,7 @@
     height: 3px;
     width: 0%;
     background: #9900ff;
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: -10px;
     transition: 0.5s;
