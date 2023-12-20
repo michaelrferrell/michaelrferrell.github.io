@@ -204,6 +204,7 @@
 
 .row .left {
     overflow: hidden;
+    flex-basis: 30%;
 }
 
 .row .left img {
