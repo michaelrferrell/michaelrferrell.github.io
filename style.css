@@ -138,13 +138,18 @@
 
 /* ----------- projects ----------- */
 .projects-col-1 {
-    flex-basis: 40%; /* Adjust the width of each column as needed */
-    margin: 10px 10px 10px 50px;
+    flex-basis: 25%; /* Adjust the width of each column as needed */
+    margin: 10px 10px 10px 20px;
 }
 
 .projects-col-2 {
-    flex-basis: 40%; /* Adjust the width of each column as needed */
-    margin: 10px 50px 10px 10px;
+    flex-basis: 25%; /* Adjust the width of each column as needed */
+    margin: 10px 10px 10px 10px;
+}
+
+.projects-col-3 {
+    flex-basis: 25%; /* Adjust the width of each column as needed */
+    margin: 10px 20px 10px 10px;
 }
 
 .projects-col-1 img {
@@ -153,6 +158,11 @@
 }
 
 .projects-col-2 img {
+    width: 100%;
+    border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
+}
+
+.projects-col-3 img {
     width: 100%;
     border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
 }
