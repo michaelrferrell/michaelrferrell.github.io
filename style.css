@@ -173,15 +173,15 @@
 
 .description h3::after{
     content: '';
+    width: 0;
     height: 3px;
-    width: 0%;
     background: #9900ff;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -8px;
     transition: 0.5s;
 }
 
 .description h3:hover::after{
-    width: 100%;
+    width: 50%;
 }
