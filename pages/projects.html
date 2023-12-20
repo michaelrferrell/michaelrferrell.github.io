@@ -24,28 +24,34 @@
                     <div class="project">
                       <img src="../media/groundsystems.jpg" alt="Image 1">
                       <div class="description">
-                        <h3>Ground Systems Lead Engineer</h3>
-                        <p>blah blah blah</p>
+                        <h3 class="project-links" onclick="opentab('ground_systems')">Ground Systems Lead Engineer</h3>
                       </div>
                     </div>
                     <div class="project">
                       <img src="../media/avionics.PNG" alt="Image 2">
                       <div class="description">
-                        <h3>Avionics Engineer</h3>
-                        <p>blah blah blah</p>
+                        <h3 class="project-links" onclick="opentab('avionics')">Avionics Engineer</h3>
                       </div>
                     </div>
                     <div class="project">
                         <img src="../media/tunnelman.PNG" alt="Image 3">
                         <div class="description">
-                          <h3>Programming</h3>
-                          <p>blah blah blah</p>
+                          <h3 class="project-links" onclick="opentab('programming')">Programming</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <script>
+          var projects = document.getElementsByClassName("project-links");
+          function opentab(projectname) {
+              for(project of projects) {
+                  project.classList.remove("active-link");
+              }
+              event.currentTarget.classList.add("active-link");
+          }
+        </script>
 
 
     </div>
