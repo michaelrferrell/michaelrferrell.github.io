@@ -170,3 +170,18 @@
 .description {
     color: #fff;
 }
+
+.projects-col-1::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #9900ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.projects-col-1:hover::after{
+    width: 100%;
+}
