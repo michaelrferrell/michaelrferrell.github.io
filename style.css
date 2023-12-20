@@ -195,12 +195,8 @@
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
-.slide img {
-    width: 350px;
-}
-
 .img-col-1 {
-    flex-basis: 27%;
+    flex-basis: 20%;
     margin-left: 20px;
 }
 .img-col-1 img{
@@ -208,6 +204,10 @@
     border-radius: 15px;
 }
 .word-col-1{
-    flex-basis: 60%;
+    flex-basis: 45%;
     margin-right: 20px;
+}
+.word-col-1 p{
+    color: #fff;
+    font-size: 20px;
 }
