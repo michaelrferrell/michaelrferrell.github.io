@@ -198,7 +198,7 @@
     width: 80%;
     max-width: 1170px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     grid-gap: 50px 30px, 
 }
 
@@ -208,7 +208,8 @@
 
 .project-row .left img {
     width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
 }
