@@ -199,7 +199,7 @@
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 90px 30px, 
+    grid-gap: 50px 30px, 
 }
 
 .row .left {
