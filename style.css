@@ -203,6 +203,8 @@
 
 .project-row .left {
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .project-row .left img {
