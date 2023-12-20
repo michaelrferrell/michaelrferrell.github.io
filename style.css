@@ -137,34 +137,21 @@
 }
 
 /* ----------- projects ----------- */
-.projects-col-1 {
-    flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 15px;
+.projects-list {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
 }
-
-.projects-col-2 {
-    flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 15px;
+.project {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
-
-.projects-col-3 {
-    flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 15px;
-}
-
-.projects-col-1 img {
+.project img {
     width: 100%;
-    border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
-}
-
-.projects-col-2 img {
-    width: 100%;
-    border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
-}
-
-.projects-col-3 img {
-    width: 100%;
-    border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
+    border-radius: 8px;
+    display: block;
 }
 
 .description {
