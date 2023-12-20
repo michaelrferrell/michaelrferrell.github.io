@@ -156,3 +156,7 @@
     width: 100%;
     border-radius: 8px; /* Optional: Add some border radius for a rounded appearance */
 }
+
+.description {
+    color: #fff;
+}
