@@ -139,17 +139,17 @@
 /* ----------- projects ----------- */
 .projects-col-1 {
     flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 10px;
+    margin: 15px;
 }
 
 .projects-col-2 {
     flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 10px;
+    margin: 15px;
 }
 
 .projects-col-3 {
     flex-basis: 25%; /* Adjust the width of each column as needed */
-    margin: 10px;
+    margin: 15px;
 }
 
 .projects-col-1 img {
