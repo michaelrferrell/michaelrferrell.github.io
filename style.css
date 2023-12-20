@@ -190,7 +190,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
@@ -204,7 +203,6 @@
 
 .row .left {
     overflow: hidden;
-    flex-basis: 30%;
 }
 
 .row .left img {
