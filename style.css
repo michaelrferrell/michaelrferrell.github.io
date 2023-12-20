@@ -192,7 +192,7 @@
     justify-content: center;
     gap: 50px;
     color:#9900ff;
-    background: linear-gradient(454deg, #000000, #0a0020)
+    background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
 .slide img {
