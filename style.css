@@ -187,3 +187,8 @@
 .description h3:hover::after {
     width: 100%;
 }
+
+.description p{
+    color: #fff;
+    top: 10px;
+}
