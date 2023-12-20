@@ -203,6 +203,7 @@
 }
 
 .project-row .left {
+    left: 20px;
     overflow: hidden;
 }
 
