@@ -42,19 +42,23 @@
                 </div>
             </div>
         </div>
-
-        <script>
-          var projects = document.getElementsByClassName("project-links");
-          function opentab(projectname) {
-              for(project of projects) {
-                  project.classList.remove("active-link");
-              }
-              event.currentTarget.classList.add("active-link");
-          }
-        </script>
-
-
+        <div class="project-slide">
+          <h2>
+            This is an immense test of wit!
+          </h2>
     </div>
+    
+    </div>
+
+    <script>
+      var projects = document.getElementsByClassName("project-links");
+      function opentab(projectname) {
+          for(project of projects) {
+              project.classList.remove("active-link");
+          }
+          event.currentTarget.classList.add("active-link");
+      }
+    </script>
 </body>
 
 </html>
