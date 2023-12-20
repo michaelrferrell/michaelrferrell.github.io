@@ -189,5 +189,5 @@
 }
 
 .description p:hover::after {
-    width: 100%;
+    width: 30%;
 }
