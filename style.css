@@ -292,7 +292,7 @@
 
 .contact-row p a::after{
     content: '';
-    height: 2px;
+    height: 0px;
     width: 0%;
     background: #9900ff;
     position: absolute;
