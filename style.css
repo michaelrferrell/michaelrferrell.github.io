@@ -284,7 +284,7 @@
     height: auto;
 }
 
-.contact-row p{
+.contact-row p a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
@@ -301,6 +301,6 @@
     transition: 0.5s;
 }
 
-.contact-row p a:hover::after{
+.contact-row p:hover::after{
     width: 100%;
 }
