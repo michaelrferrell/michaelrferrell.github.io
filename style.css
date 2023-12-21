@@ -266,7 +266,7 @@
 .contact-row p {
     width: 100%; /* Full width on small screens */
     max-width: 400px; /* Adjust the max width as needed */
-    margin: 10px;
+    margin: 20px;
     display: flex;
     align-items: center;
 }
