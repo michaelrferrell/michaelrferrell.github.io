@@ -273,4 +273,6 @@
 
 .contact-row p img {
     margin-right: 10px; /* Add space between the image and text */
+    max-width: 30px;
+    height: auto;
 }
