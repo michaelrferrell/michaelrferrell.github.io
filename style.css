@@ -4,11 +4,15 @@
     padding: 0;
     font-family:sans-serif;
 }
-/*
+
 body {
-    overflow: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
-*/
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
 .banner{
     margin: 0;
     padding: 0;
