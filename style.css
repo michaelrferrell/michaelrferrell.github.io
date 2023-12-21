@@ -119,8 +119,9 @@
     transition: 0.5s;
 }
 
+.tab-links:hover::after,
 .tab-links.active-link::after {
-    width: 50%;
+    width: 100%;
 }
 
 .tab-contents ul li {
