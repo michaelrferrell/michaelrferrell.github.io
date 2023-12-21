@@ -181,7 +181,7 @@
 }
 
 .project-links.active-link::after {
-    width: 50%;
+    width: 100%;
 }
 
 .slide-container {
