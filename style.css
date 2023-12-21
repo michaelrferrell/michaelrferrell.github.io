@@ -285,7 +285,7 @@ body::-webkit-scrollbar {
     font-size: 20px;
     margin: 15px;
     margin-bottom: 20px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     position: relative;
 }
