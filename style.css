@@ -245,3 +245,10 @@
 }
 
 /* ----------- contact me ----------- */
+.contact-row {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
