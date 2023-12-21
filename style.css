@@ -292,11 +292,12 @@
 
 .contact-row p a::after{
     content: '';
-    height: 3px;
+    height: 2px;
     width: 0%;
     background: #9900ff;
     position: absolute;
     left: 0;
+    bottom: -5px;
     transition: 0.5s;
 }
 
