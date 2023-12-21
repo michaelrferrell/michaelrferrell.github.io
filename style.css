@@ -290,7 +290,7 @@
     cursor: pointer;
 }
 
-.contact-row p::after{
+.contact-row p a::after{
     content: '';
     height: 3px;
     width: 0%;
@@ -301,6 +301,6 @@
     transition: 0.5s;
 }
 
-.contact-row p:hover::after{
+.contact-row p a:hover::after{
     width: 100%;
 }
