@@ -196,6 +196,14 @@
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
+.slide {
+    display:none;
+}
+
+.slide.active-tab {
+    display: block;
+}
+
 .project-container {
     width: 80%;
     margin: 0 auto; /* Center the container on the page */
