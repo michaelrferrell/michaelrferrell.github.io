@@ -284,19 +284,20 @@
     height: auto;
 }
 
-.contact-row p a {
+.contact-row p{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
 }
 
-.contact-row p a::after{
+.contact-row p::after{
     content: '';
-    height: 1px;
+    height: 2px;
     width: 0%;
     background: #9900ff;
     position: absolute;
     left: 0;
+    bottom: -2px;
     transition: 0.5s;
 }
 
