@@ -45,8 +45,8 @@
   </div>
   <div class="container">
     <div class="slide-container">
-      <div class="slide" id="ground-systems">
-        <div class="project-container">
+      <div class="slide">
+        <div class="project-container" id="ground-systems">
           <div class="project-row">
             <div class="left">
               <img src="../media/groundsystems.jpg">
@@ -125,8 +125,8 @@
         </div>
       </div>
 
-      <div class="slide" id="avionics">
-        <div class="project-container">
+      <div class="slide">
+        <div class="project-container" id="avionics">
           <div class="project-row">
             <div class="left">
               <img src="../media/avionics.PNG">
@@ -205,8 +205,8 @@
         </div>
       </div>
 
-      <div class="slide" id="programming">
-        <div class="project-container">
+      <div class="slide">
+        <div class="project-container" id="programming">
           <div class="project-row">
             <div class="left">
               <img src="../media/tunnelman.png">
@@ -299,7 +299,7 @@
   </script>
 
   <script>
-    var slides = document.getElementsByClassName("slide");
+    var slides = document.getElementsByClassName("project-container");
     var projects = document.getElementsByClassName("project-links");
     function opentab(projectname) {
       for (project of projects) {
@@ -309,7 +309,7 @@
         slide.classList.remove("active-tab");
       }
       event.currentTarget.classList.add("active-link");
-      document.getElementById(slide).classList.add("active-tab");
+      document.getElementById(projectname).classList.add("active-tab");
     }
   </script>
 </body>

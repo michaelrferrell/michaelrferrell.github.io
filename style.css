@@ -196,18 +196,16 @@
     background: linear-gradient(to bottom, #000000, #0a0020)
 }
 
-.slide {
+.project-container {
     display:none;
 }
 
-.slide.active-tab {
+.project-container.active-tab {
     display: block;
-}
-
-.project-container {
     width: 80%;
     margin: 0 auto; /* Center the container on the page */
-  }
+}
+
 .project-row {
     display: grid;
     grid-template-columns: 35% 65%;
