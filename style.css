@@ -280,7 +280,7 @@ body::-webkit-scrollbar {
 }
 
 .contact-row p {
-    width: 100%; /* Full width on small screens */
+    width: auto; /* Full width on small screens */
     max-width: 400px; /* Adjust the max width as needed */
     font-size: 20px;
     margin: 15px;
