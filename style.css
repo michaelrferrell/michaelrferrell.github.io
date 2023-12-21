@@ -250,6 +250,8 @@
     padding: 80px 0;
     color: #fff;
     text-align: center;
+    position: fixed;
+    top: 0;
 }
 .contact-container {
     margin: 0 auto;
