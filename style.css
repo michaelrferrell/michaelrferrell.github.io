@@ -277,6 +277,7 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .contact-row p img {
@@ -293,13 +294,13 @@
 
 .contact-row p::after{
     content: '';
-    height: 2px;
+    height: 3px;
     width: 0%;
     background: #9900ff;
     position: absolute;
     left: 0;
     transition: 0.5s;
-    bottom: -2px;
+    bottom: -10px;
 }
 
 .contact-row p:hover::after{
