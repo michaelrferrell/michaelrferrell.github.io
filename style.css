@@ -152,7 +152,7 @@
 .project {
     border-radius: 10px;
     position: relative;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .project img {
     width: 100%;
