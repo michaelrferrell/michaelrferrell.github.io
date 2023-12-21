@@ -92,6 +92,7 @@
 .sub-title{
     font-size: 60px;
     font-weight: 600;
+    color: #fff;
 }
 
 .tab-titles{
@@ -245,10 +246,13 @@
 }
 
 /* ----------- contact me ----------- */
+#contact {
+    padding: 80px 0;
+    color: #fff;
+}
+
 .contact-row {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-gap: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
