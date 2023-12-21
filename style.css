@@ -289,3 +289,18 @@
     color: inherit;
     cursor: pointer;
 }
+
+.contact-row p::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #9900ff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.contact-row p:hover::after{
+    width: 100%;
+}
