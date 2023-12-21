@@ -310,6 +310,12 @@
       }
       event.currentTarget.classList.add("active-link");
       document.getElementById(projectname).classList.add("active-tab");
+
+      var activeTabOffsetTop = document.getElementById(projectname).offsetTop;
+        window.scrollTo({
+            top: activeTabOffsetTop,
+            behavior: 'smooth' // Use smooth scrolling for a nicer effect
+        });
     }
   </script>
 </body>
