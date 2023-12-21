@@ -197,7 +197,7 @@
     margin: 0 auto; /* Center the container on the page */
   }
 .project-row {
-    width: 80%;
+    
     display: grid;
     grid-template-columns: 40% 60%;
     grid-gap: 50px;
