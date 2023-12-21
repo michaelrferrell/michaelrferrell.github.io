@@ -19,8 +19,7 @@
 }
 
 .navbar {
-    position:static;
-    margin: auto;
+    position: fixed;
     top: 0;
     right: 0;
     padding: 10px;
