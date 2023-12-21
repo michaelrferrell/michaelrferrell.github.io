@@ -181,6 +181,7 @@
     transition: 0.5s;
 }
 
+.project-links:hover::after,
 .project-links.active-link::after {
     width: 100%;
 }
