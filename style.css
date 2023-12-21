@@ -30,6 +30,10 @@
     z-index: 1000;
 }
 
+.navbar.hidden {
+    transform: translateY(-100%); /* Move the navbar off the screen */
+  }
+
 .navbar ul li {
     list-style: none;
     font-size: 35px;
