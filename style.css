@@ -246,7 +246,7 @@ body::-webkit-scrollbar {
 .project-row .left img {
     width: 100%;
     max-width: 100%;
-    min-height: 300px;
+    height: auto;
     border-radius: 10px;
     object-fit: cover;
 }
