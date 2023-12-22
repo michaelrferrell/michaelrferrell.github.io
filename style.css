@@ -226,7 +226,7 @@ body::-webkit-scrollbar {
 
 .project-container.active-tab {
     display: block;
-    width: 100%;
+    width: 80%;
     margin: 0 auto; /* Center the container on the page */
 }
 
