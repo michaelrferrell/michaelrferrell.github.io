@@ -82,6 +82,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
 }
 
 .about-col-1 {
