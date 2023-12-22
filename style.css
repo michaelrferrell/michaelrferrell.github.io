@@ -243,6 +243,7 @@ body::-webkit-scrollbar {
     overflow: hidden;
     display: flex;
     align-items: center;
+    height: 300px;
 }
 
 .project-row .left img {
