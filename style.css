@@ -236,7 +236,7 @@ body::-webkit-scrollbar {
     grid-gap: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding: 10px 50px;
+    
 }
 
 .project-row .left {
