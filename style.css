@@ -218,7 +218,6 @@ body::-webkit-scrollbar {
     justify-content: center;
     gap: 50px;
     background: linear-gradient(to bottom, #000000, #0a0020);
-    height: 100%;
 }
 
 .project-container {
