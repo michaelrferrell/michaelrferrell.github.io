@@ -260,8 +260,8 @@ body::-webkit-scrollbar {
 }
 
 .project-row .left-pcbs img {
-    width: auto;
-    max-width: 100%;
+    flex: 1;
+    max-width: 50%;
     height: auto;
     border-radius: 10px;
     margin-right: 10px;
