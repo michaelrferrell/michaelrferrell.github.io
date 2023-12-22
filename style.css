@@ -231,6 +231,7 @@ body::-webkit-scrollbar {
 }
 
 .project-row {
+    width: 100%;
     display: grid;
     grid-template-columns: 35% 65%;
     grid-gap: 50px;
