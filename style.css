@@ -213,7 +213,7 @@ body::-webkit-scrollbar {
 }
 
 .slide {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     gap: 50px;
