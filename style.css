@@ -240,7 +240,7 @@ body::-webkit-scrollbar {
 }
 
 .project-row .left {
-    overflow: hidden;
+    
     display: flex;
     align-items: center;
 }
