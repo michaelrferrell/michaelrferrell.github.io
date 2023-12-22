@@ -8,6 +8,7 @@
 body {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    display: block;
 }
 body::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
@@ -217,7 +218,6 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    min-height: 50vh;
     background: linear-gradient(to bottom, #000000, #0a0020);
 }
 
