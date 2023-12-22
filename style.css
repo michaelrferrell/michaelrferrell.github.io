@@ -253,6 +253,20 @@ body::-webkit-scrollbar {
     object-fit: cover;
 }
 
+.project-row .left-pcbs {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.project-row .left-pcbs img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
 .project-row .right {
     display: flex;
     align-items: center;
