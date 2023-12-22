@@ -217,7 +217,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 40px;
+    padding-bottom: 20px;
     background: linear-gradient(to bottom, #000000, #0a0020);
 }
 
