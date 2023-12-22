@@ -252,10 +252,6 @@ body::-webkit-scrollbar {
     object-fit: cover;
 }
 
-.project-row .right {
-    width: 100%;
-}
-
 /* For images stacked vertically
 .project-row .left-pcbs {
     overflow: hidden;
