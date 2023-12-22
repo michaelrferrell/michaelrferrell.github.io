@@ -152,7 +152,7 @@ body::-webkit-scrollbar {
     display: block;
 }
 
-.tab-contents ul li br{
+.no-decoration{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
