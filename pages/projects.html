@@ -201,34 +201,7 @@
             </div>
             <div class="right">
               <div class="content">
-                <p> In the hushed glow of twilight, whispers of the day's tales lingered in the air, entwining with the
-                  gentle rustle of leaves in the breeze. A lone firefly danced, casting ephemeral patterns on the canvas
-                  of
-                  the night. In the distance, the city's heartbeat echoed through the urban sprawl, a rhythmic pulse
-                  beneath
-                  a blanket of stars.
-
-                  Meanwhile, a forgotten typewriter clacked away in a dusty attic, its keys revealing snippets of
-                  long-lost
-                  stories. The
-                  aroma of freshly brewed coffee wafted through a quaint cafe, where patrons immersed themselves in
-                  books
-                  that held worlds
-                  within their pages. In the digital realm, pixels painted a kaleidoscope of emotions, where emojis
-                  spoke
-                  a
-                  language of
-                  their own.
-
-                  Beneath the ocean's surface, mysterious creatures glided through cerulean depths, orchestrating a
-                  ballet
-                  unseen by human eyes. On a forgotten mountaintop, the wind whispered ancient secrets to ageless
-                  stones.
-                  Back in the bustling city, a street artist crafted dreams on the canvas of brick walls, while a jazz
-                  saxophone serenaded the night.
-
-                  In this tapestry of moments, the ordinary intertwined with the extraordinary, weaving a narrative spun
-                  from the threads of the unexpected. </p>
+                <p> From December 2022 to June 2023, I had the privilege of contributing to the avionics system for Rocket Project's hybrid team. The rocket was fueled by a blend of nitrous and ABS, with an anticipated apogee of around 10,000 feet. Our system played a crucial role in logging all in-flight data and transmitting it, enabling the team to access real-time information on altitude, vertical acceleration, location, and more. The hybrid team has had a history of avionics failures, from transmission to power. No team had ever implemented an avionics system that worked throughout the day of launch. This gave us a chip on our shoulder as we designed our system.   </p>
               </div>
             </div>
           </div>
@@ -239,34 +212,7 @@
             </div>
             <div class="right">
               <div class="content">
-                <p> In the hushed glow of twilight, whispers of the day's tales lingered in the air, entwining with the
-                  gentle rustle of leaves in the breeze. A lone firefly danced, casting ephemeral patterns on the canvas
-                  of
-                  the night. In the distance, the city's heartbeat echoed through the urban sprawl, a rhythmic pulse
-                  beneath
-                  a blanket of stars.
-
-                  Meanwhile, a forgotten typewriter clacked away in a dusty attic, its keys revealing snippets of
-                  long-lost
-                  stories. The
-                  aroma of freshly brewed coffee wafted through a quaint cafe, where patrons immersed themselves in
-                  books
-                  that held worlds
-                  within their pages. In the digital realm, pixels painted a kaleidoscope of emotions, where emojis
-                  spoke
-                  a
-                  language of
-                  their own.
-
-                  Beneath the ocean's surface, mysterious creatures glided through cerulean depths, orchestrating a
-                  ballet
-                  unseen by human eyes. On a forgotten mountaintop, the wind whispered ancient secrets to ageless
-                  stones.
-                  Back in the bustling city, a street artist crafted dreams on the canvas of brick walls, while a jazz
-                  saxophone serenaded the night.
-
-                  In this tapestry of moments, the ordinary intertwined with the extraordinary, weaving a narrative spun
-                  from the threads of the unexpected. </p>
+                <p> Our system consisted of two altimeters, one 6-DOF IMU, one GPS, and a 1W LoRa transceiver. To improve on previous years, we used two altimeters for redundancy and more accurate data, along with an upgraded transceiver to ensure that at apogee we could receive live data. We used the Teensy 4.1 as the microcontroller due to its 600 MHz processor, SD socket, and lightweight frame. The SD socket allowed us to store all data on a microSD card. To power the system, we had a pair of 3.7 batteries in parallel with another pair for a combined voltage of 7.4V. We decided to utilize two pairs to increase the runtime and have redundancy in case one pair failed. To ensure that the system would last throughout the launch day, we implemented a pull-pin switch that could power on and off the system. The pin was accessible via a small hole in the nosecone, which allowed us to pull it right before launch. </p>
               </div>
             </div>
           </div>
@@ -276,7 +222,18 @@
             </div>
             <div class="right">
               <div class="content">
-                <p> PCB! </p>
+                <p> My main contributions were the PCB design and PCB assembly. I used Autodesk Eagle to design the schematic and PCB. I ended up with a two-layer 3.75” x 3.75” PCB that housed all the components. I worked closely with our Vehicle Engineering team to ensure the PCB would fit within the housing unit and was within an approved weight. This was my first time ever designing a PCB, so it took a couple of tries to get it right. However, it came easy once I got the hang of the software and learned the design rules. I had never soldered before and we picked SMD components, which made assembly challenging. Maybe the best way to learn is to start in the deep end! I also worked on the transmission code on the Teensy. Most notably, I fixed an interference issue between the GPS and transceiver by programming them to operate in offsetting intervals. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-row">
+            <div class="left">
+              <img src="../media/avionics/avionics-png.png">
+            </div>
+            <div class="right">
+              <div class="content">
+                <p> Unfortunately, the pneumatic lines didn't disconnect during launch, leading to an automatic abort. The engine fired briefly before shutting off. Avionics confirmed a max apogee of 40 feet and max velocity of 46 ft/s. Post-recovery, it was discovered the avionics system would have lasted another 7 hours. Despite the setback, achieving live data reception and logging on the SD card while on the rail was a milestone for the hybrid team. </p>
               </div>
             </div>
           </div>
