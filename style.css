@@ -246,7 +246,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
-.project-row .left img {
+.project-row .left video {
     width: 100%;
     max-width: 100%;
     height: auto;
