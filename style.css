@@ -255,6 +255,7 @@ body::-webkit-scrollbar {
 }
 
 .project-row .left video {
+    display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
