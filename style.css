@@ -259,7 +259,7 @@ body::-webkit-scrollbar {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    
+    object-fit: cover;
 }
 
 /* For images stacked vertically
