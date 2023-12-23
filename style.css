@@ -246,6 +246,14 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+.project-row .left img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 .project-row .left video {
     width: 100%;
     max-width: 100%;
