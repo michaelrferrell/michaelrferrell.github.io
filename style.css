@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         top: 430px;
-        padding-top: 0;
+        padding: 10px 10px;
     }
 }
 
