@@ -194,7 +194,6 @@ body::-webkit-scrollbar {
         flex-direction: column;
         padding: 10px 10px;
         top: 430px;
-        margin: 10px;
     }
 }
 
