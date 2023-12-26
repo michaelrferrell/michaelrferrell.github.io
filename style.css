@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .tab-links {
-        margin-right: 10; /* Remove right margin on small screens */
+        margin-right: 3; /* Remove right margin on small screens */
     }
 
     .tab-titles {
