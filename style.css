@@ -485,11 +485,10 @@ body::-webkit-scrollbar {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     #contact {
-        top: 0;
-        position: relative;
-        margin-top: 200px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
         padding: 0px;
-
     }
 
     .contact-row h1 {
