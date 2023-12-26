@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .tab-links {
-        margin-right: 0; /* Remove right margin on small screens */
+        margin-right: 10; /* Remove right margin on small screens */
     }
 
     .tab-titles {
@@ -189,9 +189,9 @@ body::-webkit-scrollbar {
     }
 
     .row {
-        display: flex;
-        flex-direction: column; /* Stack columns on small screens */
         position: relative;
+        display: flex;
+        flex-direction: column;
         margin-top: 70px;
     }
 }
