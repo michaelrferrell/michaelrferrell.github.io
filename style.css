@@ -73,6 +73,19 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
 /* ----------- about ----------- */
 #about {
     padding: 80px 0;
