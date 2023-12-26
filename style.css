@@ -189,7 +189,10 @@ body::-webkit-scrollbar {
     }
 
     .row {
-        padding-top: 0;
+        display: flex;
+        flex-direction: column; /* Stack columns on small screens */
+        position: relative;
+        margin-top: 70px;
     }
 }
 
