@@ -76,7 +76,9 @@ body::-webkit-scrollbar {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .banner {
+        min-height: 100vh;
         display: block;
+        padding: 20px;
     }
     
     .navbar {
@@ -84,11 +86,20 @@ body::-webkit-scrollbar {
         flex-direction: column;
         align-items: flex-start;
         padding: 20px;
+        margin-bottom: 20px;
     }
 
     .navbar ul li {
         display: block;
         margin: 10px 0;
+    }
+
+    body {
+        background-color: #000000;
+    }
+
+    * {
+        box-sizing: border-box;
     }
 }
 
@@ -184,8 +195,12 @@ body::-webkit-scrollbar {
 
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
+    #about {
+        margin-top: 70px;
+    }
+    
     .tab-links {
-        margin-right: 0; /* Remove right margin on small screens */
+        margin-right: 10px; /* Remove right margin on small screens */
     }
 
     .tab-titles {
@@ -196,8 +211,23 @@ body::-webkit-scrollbar {
         position: relative;
         display: flex;
         flex-direction: column;
-        padding: 10px 10px;
-        top: 430px;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .about-col-1 {
+        flex-basis: 0%;
+        margin-left: 0;
+    }
+
+    .about-col-2 {
+        flex-basis: 0%;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .sub-title {
+        font-size: 50px;
+        text-align: center;
     }
 }
 
@@ -334,6 +364,60 @@ body::-webkit-scrollbar {
     padding-bottom: 15px;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 768px) { 
+    .projects-list {
+        grid-gap: 40px;
+        margin-top: 200px;
+    }
+.slide-container {
+    margin-top: 510px;
+}   
+
+.project-container.active-tab {
+    width: 90%;
+}
+
+.project-row {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.project-row .left,
+.project-row .right {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.project-row .left {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.project-row .right {
+    width: 100%;
+}
+}
+
+/* Samsung Galaxy S8+ */
+@media only screen and (max-height: 770px) {
+    .slide-container {
+        margin-top: 540px;
+    }
+}
+
+/* iPhone SE */
+@media only screen and (max-height: 700px) {
+    .slide-container {
+        margin-top: 650px;
+    }
+}
+
 /* ----------- contact me ----------- */
 #contact {
     padding: 80px 0;
@@ -396,4 +480,21 @@ body::-webkit-scrollbar {
 
 .contact-row p:hover::after{
     width: 100%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    #contact {
+        top: 0;
+        position: relative;
+        margin-top: 200px;
+        padding: 0px;
+
+    }
+
+    .contact-row h1 {
+        font-size: 60px;
+    }
+
+
 }
