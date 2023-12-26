@@ -73,6 +73,7 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
+/* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .navbar {
         box-sizing: border-box;
@@ -176,6 +177,24 @@ body::-webkit-scrollbar {
     color: inherit;
     cursor: pointer;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .tab-links {
+        margin-right: 0; /* Remove right margin on small screens */
+    }
+
+    .tab-titles {
+        justify-content: center;
+    }
+
+    .row {
+        padding-top: 0;
+    }
+}
+
+
+
 
 /* ----------- projects ----------- */
 .projects-list {
