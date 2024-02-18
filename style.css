@@ -405,11 +405,19 @@ body::-webkit-scrollbar {
 }
 
 /* iPhone SE */
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 700px) and (max-width: 400px) {
     .slide-container {
         margin-top: 650px;
     }
 }
+
+/* iPhone XR */
+@media only screen and (min-height: 720px) and (max-width: 440px) {
+    .slide-container {
+        margin-top: 550px;
+    }
+}
+
 
 /* ----------- contact me ----------- */
 #contact {
