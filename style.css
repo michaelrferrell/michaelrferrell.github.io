@@ -231,17 +231,13 @@ body::-webkit-scrollbar {
     }
 }
 
-/* iPad/Tablet */
-@media only screen and (min-width: 1000px) and (max-height: 730px) {
-    .row {
-        max-height: calc(100vh - 50px); /* Adjust the height as needed */
-        overflow-y: auto;
+/* iPad Styles */
+@media only screen and (min-width: 1000px) and (max-height: 750px) { 
+    .tab-titles {
+        margin: 20px 0 10px;
     }
-
+    
 }
-
-
-
 
 /* ----------- projects ----------- */
 .projects-list {
