@@ -365,7 +365,7 @@ body::-webkit-scrollbar {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) and (max-height: 950 ) { 
     .projects-list {
         grid-gap: 40px;
         margin-top: 200px;
