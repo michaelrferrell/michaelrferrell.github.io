@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
 /* iPad Styles */
 @media only screen and (min-width: 1000px) and (max-height: 750px) { 
     .tab-titles {
-        margin: 20px 0 15px;
+        margin: 15px 0 15px;
     }
     .tab-contents ul li span {
         font-size: 22px;
