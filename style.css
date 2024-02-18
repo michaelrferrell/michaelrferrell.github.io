@@ -405,7 +405,7 @@ body::-webkit-scrollbar {
 }
 
 /* Samsung Galaxy S8+ */
-@media only screen and (max-height: 770px) {
+@media only screen and (max-height: 770px) and (max-width: 370){
     .slide-container {
         margin-top: 540px;
     }
